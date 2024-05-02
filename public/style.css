@@ -1,0 +1,66 @@
+body {
+  font-family: "Helvetica", sans-serif;
+  margin: 2em auto;
+  max-width: 40em;
+}
+
+h1 {
+  text-align: center;
+  color: #CD0046;
+  border-bottom: 2px solid #CD0046;
+  padding-bottom: 0.5em;
+}
+
+p.time {
+  font-size: 3em;
+  margin: 0;
+}
+
+a, a:visited {
+  color: #CD0046;
+  text-decoration: none;
+}
+
+a.btn {
+  display: inline-block;
+  color: white;
+  background-color: #CD0046;
+  padding: 0.5em 1em;
+  border-radius: 0.2em;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+a.btn:hover {
+  background-color: #9c002d;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 0.5em;
+  text-align: center;
+}
+
+tr.past {
+  color: #aaa;
+}
+
+button {
+  margin-top: 10rem;
+  background-color: #CD0046;
+  color: white;
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 0.2em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button-container {
+  text-align: center;
+}
